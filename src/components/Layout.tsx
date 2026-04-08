@@ -26,7 +26,7 @@ export default function Layout({ children, activeTab, setActiveTab }: LayoutProp
             <div className="bg-indigo-600 p-2 rounded-xl">
               <Wallet className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-xl font-bold tracking-tight">Expense Tracker</h1>
+            <h1 className="text-xl font-bold tracking-tight">SpendWise</h1>
           </div>
           <button 
             onClick={toggleTheme}
@@ -96,7 +96,7 @@ export default function Layout({ children, activeTab, setActiveTab }: LayoutProp
           <div className="bg-indigo-600 p-1.5 rounded-lg">
             <Wallet className="w-5 h-5 text-white" />
           </div>
-          <span className="text-lg font-bold">Expense Tracker</span>
+          <span className="text-lg font-bold">SpendWise</span>
         </div>
         <button 
           onClick={toggleTheme}
